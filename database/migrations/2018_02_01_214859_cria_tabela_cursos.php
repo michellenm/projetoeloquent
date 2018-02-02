@@ -13,12 +13,12 @@ class CriaTabelaCursos extends Migration
      */
     public function up()
     {
-        
-        Schema::create('cursos', function (Blueprint $table) {
-            $table->increments('id');
+
+        Schema::create('cursos', function (Blueprint $table) { // protected $table = "nome no singular"
+            $table->increments('id');// id
             $table->char('turma');
             $table->char('nome');
-            $table->timestamps();
+            $table->timestamps();// cria 2 colunas - atualizado e criado
         });
     }
 

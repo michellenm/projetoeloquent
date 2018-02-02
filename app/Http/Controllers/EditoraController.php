@@ -19,5 +19,14 @@ class EditoraController extends Controller
          return view('editora.show', compact('editora'));
 
     }
+  //  public function create()){ - para novo editora  e e cria a pasta create na views
+//         return view('editora.create');
+
+//  public function store()){ - salva os dados escritos no formulario
+        //$curso = new curso();
+        //$cruso -> nome = request ('nome'); NOME DOS CAMPOS
+        //$curso->turma = request ('turma'); NOME DOS CAMPOS
+        //$curso->save();
+        //return redirect ('/cursos');
 
 }
